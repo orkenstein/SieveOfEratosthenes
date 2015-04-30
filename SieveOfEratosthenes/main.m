@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "AppDelegate.h"
+#import "SEAppDelegate.h"
 
-int main(int argc, char * argv[]) {
-  @autoreleasepool {
-      return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
-  }
+int main(int argc, char *argv[]) {
+    @autoreleasepool {
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([SEAppDelegate class]));
+    }
 }

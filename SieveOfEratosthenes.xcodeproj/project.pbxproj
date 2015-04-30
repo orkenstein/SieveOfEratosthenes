@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF0962821AF165D9005AA51D /* SEHistoryTools.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0962811AF165D9005AA51D /* SEHistoryTools.m */; };
+		BF0962851AF16C97005AA51D /* SEHistoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0962841AF16C97005AA51D /* SEHistoryController.m */; };
 		BF71C52D1AF14F4200B3EB78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF71C52C1AF14F4200B3EB78 /* main.m */; };
-		BF71C5301AF14F4200B3EB78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF71C52F1AF14F4200B3EB78 /* AppDelegate.m */; };
-		BF71C5331AF14F4200B3EB78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF71C5321AF14F4200B3EB78 /* ViewController.m */; };
+		BF71C5301AF14F4200B3EB78 /* SEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF71C52F1AF14F4200B3EB78 /* SEAppDelegate.m */; };
+		BF71C5331AF14F4200B3EB78 /* SEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF71C5321AF14F4200B3EB78 /* SEViewController.m */; };
 		BF71C5361AF14F4200B3EB78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF71C5341AF14F4200B3EB78 /* Main.storyboard */; };
 		BF71C5381AF14F4200B3EB78 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF71C5371AF14F4200B3EB78 /* Images.xcassets */; };
 		BF71C53B1AF14F4200B3EB78 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF71C5391AF14F4200B3EB78 /* LaunchScreen.xib */; };
 		BF71C5471AF14F4200B3EB78 /* SieveOfEratosthenesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF71C5461AF14F4200B3EB78 /* SieveOfEratosthenesTests.m */; };
+		BF71C5521AF152C400B3EB78 /* SENumberCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF71C5511AF152C400B3EB78 /* SENumberCell.m */; };
+		BF71C5551AF1534400B3EB78 /* SEEratosthenes.m in Sources */ = {isa = PBXBuildFile; fileRef = BF71C5541AF1534400B3EB78 /* SEEratosthenes.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +31,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF0962801AF165D9005AA51D /* SEHistoryTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEHistoryTools.h; sourceTree = "<group>"; };
+		BF0962811AF165D9005AA51D /* SEHistoryTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEHistoryTools.m; sourceTree = "<group>"; };
+		BF0962831AF16C97005AA51D /* SEHistoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEHistoryController.h; sourceTree = "<group>"; };
+		BF0962841AF16C97005AA51D /* SEHistoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEHistoryController.m; sourceTree = "<group>"; };
 		BF71C5271AF14F4200B3EB78 /* SieveOfEratosthenes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SieveOfEratosthenes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF71C52B1AF14F4200B3EB78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF71C52C1AF14F4200B3EB78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BF71C52E1AF14F4200B3EB78 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		BF71C52F1AF14F4200B3EB78 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BF71C5311AF14F4200B3EB78 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BF71C5321AF14F4200B3EB78 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF71C52E1AF14F4200B3EB78 /* SEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEAppDelegate.h; sourceTree = "<group>"; };
+		BF71C52F1AF14F4200B3EB78 /* SEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEAppDelegate.m; sourceTree = "<group>"; };
+		BF71C5311AF14F4200B3EB78 /* SEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEViewController.h; sourceTree = "<group>"; };
+		BF71C5321AF14F4200B3EB78 /* SEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEViewController.m; sourceTree = "<group>"; };
 		BF71C5351AF14F4200B3EB78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF71C5371AF14F4200B3EB78 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BF71C53A1AF14F4200B3EB78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BF71C5401AF14F4200B3EB78 /* SieveOfEratosthenesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SieveOfEratosthenesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF71C5451AF14F4200B3EB78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF71C5461AF14F4200B3EB78 /* SieveOfEratosthenesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SieveOfEratosthenesTests.m; sourceTree = "<group>"; };
+		BF71C5501AF152C400B3EB78 /* SENumberCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SENumberCell.h; sourceTree = "<group>"; };
+		BF71C5511AF152C400B3EB78 /* SENumberCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SENumberCell.m; sourceTree = "<group>"; };
+		BF71C5531AF1534300B3EB78 /* SEEratosthenes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEEratosthenes.h; sourceTree = "<group>"; };
+		BF71C5541AF1534400B3EB78 /* SEEratosthenes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEEratosthenes.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +93,18 @@
 		BF71C5291AF14F4200B3EB78 /* SieveOfEratosthenes */ = {
 			isa = PBXGroup;
 			children = (
-				BF71C52E1AF14F4200B3EB78 /* AppDelegate.h */,
-				BF71C52F1AF14F4200B3EB78 /* AppDelegate.m */,
-				BF71C5311AF14F4200B3EB78 /* ViewController.h */,
-				BF71C5321AF14F4200B3EB78 /* ViewController.m */,
+				BF71C52E1AF14F4200B3EB78 /* SEAppDelegate.h */,
+				BF71C52F1AF14F4200B3EB78 /* SEAppDelegate.m */,
+				BF71C5311AF14F4200B3EB78 /* SEViewController.h */,
+				BF71C5321AF14F4200B3EB78 /* SEViewController.m */,
+				BF71C5531AF1534300B3EB78 /* SEEratosthenes.h */,
+				BF71C5541AF1534400B3EB78 /* SEEratosthenes.m */,
+				BF0962801AF165D9005AA51D /* SEHistoryTools.h */,
+				BF0962811AF165D9005AA51D /* SEHistoryTools.m */,
+				BF0962831AF16C97005AA51D /* SEHistoryController.h */,
+				BF0962841AF16C97005AA51D /* SEHistoryController.m */,
+				BF71C5501AF152C400B3EB78 /* SENumberCell.h */,
+				BF71C5511AF152C400B3EB78 /* SENumberCell.m */,
 				BF71C5341AF14F4200B3EB78 /* Main.storyboard */,
 				BF71C5371AF14F4200B3EB78 /* Images.xcassets */,
 				BF71C5391AF14F4200B3EB78 /* LaunchScreen.xib */,
@@ -163,6 +183,7 @@
 		BF71C51F1AF14F4200B3EB78 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SE;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = orkenstein;
 				TargetAttributes = {
@@ -219,8 +240,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF71C5331AF14F4200B3EB78 /* ViewController.m in Sources */,
-				BF71C5301AF14F4200B3EB78 /* AppDelegate.m in Sources */,
+				BF0962851AF16C97005AA51D /* SEHistoryController.m in Sources */,
+				BF0962821AF165D9005AA51D /* SEHistoryTools.m in Sources */,
+				BF71C5331AF14F4200B3EB78 /* SEViewController.m in Sources */,
+				BF71C5301AF14F4200B3EB78 /* SEAppDelegate.m in Sources */,
+				BF71C5521AF152C400B3EB78 /* SENumberCell.m in Sources */,
+				BF71C5551AF1534400B3EB78 /* SEEratosthenes.m in Sources */,
 				BF71C52D1AF14F4200B3EB78 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +443,7 @@
 				BF71C54C1AF14F4200B3EB78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF71C54D1AF14F4200B3EB78 /* Build configuration list for PBXNativeTarget "SieveOfEratosthenesTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +452,7 @@
 				BF71C54F1AF14F4200B3EB78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
